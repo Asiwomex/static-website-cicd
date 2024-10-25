@@ -1,7 +1,9 @@
 # static-website-cicd
 Static website deployment onto github pages using github actions for the cicd
 
-Here's a step-by-step guide to deploying a static website on GitHub Pages with GitHub Actions.
+- Here's a step-by-step guide to deploying a static website on GitHub Pages with GitHub Actions.
+- The is the link to mine https://asiwomex.github.io/static-website-cicd/
+- You can clone this repo and use the index.html
 
 ---
 
@@ -22,7 +24,7 @@ Here's a step-by-step guide to deploying a static website on GitHub Pages with G
 ## Step 3: Create a GitHub Actions Workflow for Deployment
 
 - This step comes in 2 folds
-- create **.github/workflows** directory in your main working directory
+- create **".github/workflows"** directory in your main working directory
 ---
 
 ### Step 3b: Generating the github workflow from github
