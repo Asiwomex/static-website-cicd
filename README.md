@@ -1,8 +1,8 @@
 # static-website-cicd
 Static website deployment onto github pages using github actions for the cicd
 
-- Here's a step-by-step guide to deploying a static website on GitHub Pages with GitHub Actions.
-- The is the link to mine https://asiwomex.github.io/static-website-cicd/
+- Here's a step-by-step guide to deploying a static website on GitHub Pages with GitHub Actions. 
+- The is the link to the repo that already has the codes with a sample html for the deployment https://github.com/Asiwomex/static-website-cicd
 - You can clone this repo and use the index.html
 
 ---
@@ -41,9 +41,9 @@ Static website deployment onto github pages using github actions for the cicd
 
 1. In your repository, navigate to the `.github/workflows/` folder.
    - If this folder doesn’t exist, create it.
-2. Create a file named `deploy.yml` inside `.github/workflows/`.
+2. Create a file named `static.yml` inside `.github/workflows/`.
 
-3. **Add the following code** to `deploy.yml` to define the deployment and validation steps:
+3. **Add the following code** to `static.yml` to define the deployment and validation steps:
 
    ```yaml
     # Simple workflow for deploying static content to GitHub Pages
@@ -95,7 +95,7 @@ Static website deployment onto github pages using github actions for the cicd
 
 ### Step 4: Commit and Push the Workflow File
 
-1. **Add, commit, and push** the workflow file to your repository:
+**Add, commit, and push** the workflow file to your repository:
 
    ```bash
    git add .github/workflows/deploy.yml
